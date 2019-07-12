@@ -142,6 +142,8 @@ if __name__ == '__main__':
 
     list_of_repo = [
         ("https://github.com/sachs7/cut-release.git", ""),
+        ("git@github.com:sachs7/Youtube-Bot-.git", "develop"),
+        ("git@github.com:sachs7/Apartment-Bot.git", "development")
     ]
 
     parent_directory = os.getcwd()
