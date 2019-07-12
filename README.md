@@ -2,7 +2,7 @@
 
 Python script to help QA team or anyone to cut the release branch off of the default branch. This project is mainly for the person who handles the Release activity. Instead of repeating the tasks or commands each time, isn't it better to automate the same? 
 
-This project assumes you have set up the SSH access to your Public/Private GitHub. The goal is to just create a separate release branch out of the default branch and push to the default branch, so that the QA team can work off the release branch and rest of the developers can work on development branch.
+This project assumes you have set up the SSH access to your Public/Private GitHub. The goal is to just create a separate release branch out of the default branch and push to the default branch, so that the QA team can work off the release branch and rest of the developers can work on development branch. This is mainly useful when your application has multiple sub-projects or teams and you as a QA person want to have a release branch cut out so that the other development work doesn't affect your testing.
 
 Below actions are automated:
 
