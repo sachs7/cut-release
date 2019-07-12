@@ -13,7 +13,7 @@ Checking out files: 100% (xxxx/xxxx), done.
 
    Standard Error: None
 
-2. Changing Directory to... : /Users/<u-name>/Desktop/
+2. Changing Directory to... : /Users/<u-name>/Desktop/Apartment-Bot/
 
 
 ********** List of JIRAs merged **********
