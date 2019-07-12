@@ -1,0 +1,47 @@
+# This is a Sample CLI Output.
+
+$ python3 cut_a_release_branch.py 
+
+0. Parent Directory: /Users/<u-name>/Desktop/
+
+
+---------- Clone, Branch and Push: git@github.com:sachs7/Apartment-Bot.git ----------
+
+1. Cloning the Git Repo...
+   Standard Output: Cloning into 'Apartment-Bot'...
+Checking out files: 100% (xxxx/xxxx), done.
+
+   Standard Error: None
+
+2. Changing Directory to... : /Users/<u-name>/Desktop/
+
+
+********** List of JIRAs merged **********
+SAMPLE-866
+SAMPLE-17
+PROJECT_A-39
+********** End of List **********
+
+3. Checkout the branch... test_release/2019.7.11
+   Standard Output: Switched to a new branch 'test_release/2019.7.11'
+
+   Standard Error: None
+
+4. Push the branch... 
+   Standard Output: Everything up-to-date
+
+   Standard Error: None
+
+5. Going back to Parent Directory: /Users/<u-name>/Desktop/
+   Standard Output: total 240
+
+-rw-r--r--   1 <u-name>  staff   4550 Jul 11 10:23 cut_a_release_branch.py
+drwxr-xr-x  49 <u-name>  staff   1568 Jul 11 10:24 Apartment-Bot
+
+   Standard Error: None
+
+6. Showing the contents of Directory_to_remove: ['/Users/<u-name>/Desktop/Apartment-Bot']
+
+   Removing the Folder: /Users/<u-name>/Desktop/Apartment-Bot
+
+$ 
