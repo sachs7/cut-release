@@ -5,6 +5,7 @@
 import os
 import subprocess
 import shutil
+import sys
 
 DIRECTORY_TO_REMOVE = []
 
@@ -142,7 +143,7 @@ if __name__ == '__main__':
 
     list_of_repo = [
         ("https://github.com/sachs7/cut-release.git", ""),
-        ("git@github.com:sachs7/Youtube-Bot-.git", "develop"),
+        ("git@github.com:sachs7/Youtube-Bot-.git", ""),
         ("git@github.com:sachs7/Apartment-Bot.git", "development")
     ]
 
@@ -155,7 +156,13 @@ if __name__ == '__main__':
     This can be customized for user input or when run on CI servers, 
     read the version from parameters
     """
-    release_version = "test_release/2019.7.11"
+    if len(sys.argv) != 2:
+        sys.exit(
+            f"Sorry! You need to enter the release version. Example:\n\n"
+            f"   python3 cut_a_release_branch.py \"release/x.x.x\" "
+        )
+    
+    release_version = sys.argv[1]
 
     for repo_link in list_of_repo:
         print(f"\n")
